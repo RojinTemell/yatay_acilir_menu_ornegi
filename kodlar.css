@@ -1,0 +1,30 @@
+.menu ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu li{
+    float: left;
+    position: relative;
+    width: 120px;
+}
+.menu ul  li ul{
+     display: none;
+}
+.menu ul  li:hover ul{
+    display: block;
+}
+.menu li a{
+    background-color: darkcyan;
+    color: floralwhite;
+    display: block;
+    text-decoration: none;
+    height:30px ;
+    line-height: 30px;
+    text-align: center;
+}
+.menu li a:hover{
+    background-color: floralwhite;
+    color:darkcyan ;
+}
